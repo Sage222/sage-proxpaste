@@ -17,6 +17,9 @@ Everything local. No privacy concerns.
 Enjoy
 
 
+Screenshot:
+https://freeimage.host/i/qce8TWF
+
 
 
 
