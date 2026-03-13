@@ -1,9 +1,22 @@
 # sage-proxpaste
 Chrome Extension to allow easy Clipboard copy and paste into Proxmox VMs.
 
-
-Chrome extension that lets you copy text on your computer and type it into a Proxmox VM console — something that normally doesn't work because the VM console is basically a video stream that only accepts keyboard input.
+Lets you copy text on your computer and type it into a Proxmox VM console — something that normally doesn't work because the VM console is basically a video stream that only accepts keyboard input.
 When you click the extension icon, a small box pops up. You paste your text in, hit Enter or click send and the extension pretends to be a keyboard and types it all out into the VM for you, one character at a time.
+
+
+Instructions:
+Download the files.  Add them to zip file.  Goto: chrome://extensions/  tick Developer Mode Switch and add the zip Unpacked folder.
+
+Restart the proxvox tab if its open. It wont work unless its reloaded after the extension is enabled.
+
+Works on Brave Browser too - prob other chrome based ones as well.
+
+Everything local. No privacy concerns.
+
+Enjoy
+
+
 
 
 
