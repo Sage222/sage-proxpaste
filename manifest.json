@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Proxmox Paste",
+  "version": "2.1",
+  "description": "Paste clipboard text into Proxmox VM console sessions",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_icon": {
+      "128": "images/icon.png"
+    },
+    "default_tooltip": "Proxmox Paste (Ctrl+M)"
+  },
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "commands": {
+    "open-paste-panel": {
+      "suggested_key": {
+        "default": "Ctrl+M",
+        "mac": "Command+M"
+      },
+      "description": "Open paste panel"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
